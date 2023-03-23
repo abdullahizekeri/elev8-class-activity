@@ -1,0 +1,177 @@
+/* general styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: rgb(231, 231, 126);
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* header section styles */
+  
+  .header {
+    background-color: #007bff;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  /* navigation styles */
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  /*nav a:hover {
+    background-color: #007bff;
+  }*/
+  /* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  
+  /* main section styles */
+  
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  #history img {
+    max-width: 80%;
+    height: 10%;
+    padding: 0;
+  }
+
+  #services img {
+    width: 100%;
+  }
+  
+  /*.product h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }*/
+  
+  .product p {
+    margin: 10px 0;
+  }
+  
+  .product .price {
+    font-weight: bold;
+  }
+
+  
+  /* footer section styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul li{
+    list-style: none;
+    font-weight: bold;
+    
+  }
+
+  footer p {
+    margin: 0;
+  }
+  
+  /* form styles */
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0062cc;
+    border-radius: 8px;
+  }
